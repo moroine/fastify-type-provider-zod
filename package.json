@@ -1,6 +1,6 @@
 {
-  "name": "fastify-type-provider-zod",
-  "version": "5.0.1",
+  "name": "@moroine/fastify-type-provider-zod",
+  "version": "5.1.0-moroine.1",
   "description": "Zod Type Provider for Fastify@5",
   "type": "module",
   "main": "./dist/cjs/index.cjs",
@@ -16,7 +16,11 @@
       "default": "./dist/esm/index.js"
     }
   },
-  "files": ["README.md", "LICENSE", "dist"],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist"
+  ],
   "scripts": {
     "build": "vite build",
     "test:coverage": "vitest --coverage",
@@ -27,15 +31,20 @@
     "prepublishOnly": "npm run build"
   },
   "repository": {
-    "url": "https://github.com/turkerdev/fastify-type-provider-zod"
+    "url": "git+https://github.com/moroine/fastify-type-provider-zod.git"
   },
-  "keywords": ["fastify", "zod", "type", "provider"],
+  "keywords": [
+    "fastify",
+    "zod",
+    "type",
+    "provider"
+  ],
   "author": "turkerd",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/turkerdev/fastify-type-provider-zod/issues"
+    "url": "https://github.com/moroine/fastify-type-provider-zod/issues"
   },
-  "homepage": "https://github.com/turkerdev/fastify-type-provider-zod",
+  "homepage": "https://github.com/moroine/fastify-type-provider-zod",
   "dependencies": {
     "@fastify/error": "^4.1.0"
   },
